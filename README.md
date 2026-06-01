@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Apurv Bajpai</h1>
 
-<h3 align="center">Backend Developer | Aspiring DevOps Engineer ☁️</h3>
-
+<h3 align="center">
+Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experience
+</h3>
 <p align="center">
   <img src="Banner.png" alt="Banner" width="100%">
 </p>
