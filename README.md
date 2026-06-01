@@ -2,9 +2,8 @@
 <h3 align="center">Backend Developer | Aspiring DevOps Engineer ☁️</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Apurvbajpai2531&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="./banner.png" alt="Apurv Bajpai Banner" width="100%">
 </p>
-
 ---
 
 ## 🚀 About Me
