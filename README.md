@@ -30,8 +30,8 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
 # 🚀 About Me
 
 - 🎓 B.Tech Computer Science Graduate
-- 💻 Backend Developer (Ruby on Rails)
-- ☁️ Learning AWS, Docker, Kubernetes & Terraform
+- 💻 Backend Developer 
+- ☁️ Contributing AWS, Docker, Kubernetes & Terraform
 - 🔭 Building DevOps and Cloud Projects
 - 🌱 Exploring CI/CD Pipelines & Infrastructure Automation
 - 🐧 Linux Enthusiast
