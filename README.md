@@ -8,7 +8,7 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=850&lines=Software+Developer;DevOps+Engineer;1%2B+Years+of+IT+Experience;AWS+%7C+Docker+%7C+Kubernetes;CI%2FCD+%7C+Cloud+Automation;Always+Learning+Something+New" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Software+Developer;DevOps+Engineer;Site+Reliability+Engineer+(SRE);1%2B+Years+of+IT+Experience;AWS+%7C+Docker+%7C+Kubernetes;CI%2FCD+%7C+Cloud+Automation;Always+Learning+Something+New" />
 </p>
 
 <p align="center">
@@ -24,8 +24,6 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
     <img src="https://img.shields.io/badge/GitHub-Apurvbajpai2531-black?style=for-the-badge&logo=github">
   </a>
 </p>
-
-
 
 ---
 
