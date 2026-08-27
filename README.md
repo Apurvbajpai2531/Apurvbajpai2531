@@ -63,11 +63,11 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Apurvbajpai2531&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=Apurvbajpai2531&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
 </p>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Apurvbajpai2531&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Apurvbajpai2531&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -96,36 +96,43 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
 TROUBLESHOOTING — GitHub Analytics cards not loading
 =================================================================
 
-1. STREAK STATS (fixed in this file)
+1. STATS CARD & TOP LANGUAGES CARD (root cause of your broken images)
+   You were using `github-readme-stats.vercel.app`. As of 2026 the
+   original `anuraghazra/github-readme-stats` project is officially
+   ARCHIVED/no-longer-maintained, and its public Vercel deployment has
+   been paused/unreliable ever since — that's why all your cards showed
+   broken image icons, not an API key problem.
+
+   The maintainers point everyone to the actively maintained successor,
+   "GitHub Stats Extended", which is a drop-in replacement — only the
+   domain changes, every query parameter (username, theme, show_icons,
+   etc.) stays identical:
+     OLD: https://github-readme-stats.vercel.app/api?username=...
+     NEW: https://github-stats-extended.vercel.app/api?username=...
+   This file now uses the NEW domain. Repo (if you ever want to
+   self-host it for zero rate-limits):
+     https://github.com/marcalexiei/github-stats-extended
+
+2. STREAK STATS
    Your old URL used `github-readme-streak-stats.herokuapp.com`.
    Heroku shut down its free dyno tier in Nov 2022, so any *.herokuapp.com
    link for this project has been dead since then. The maintainer's
    current official domain is `streak-stats.demolab.com`, which is what
-   this file now uses.
-
-   If `streak-stats.demolab.com` itself ever shows a broken image icon
-   (its shared server does sometimes go down under load), swap in one
-   of these community-hosted mirrors instead — same query params work:
+   this file now uses. If it ever shows a broken icon (shared server
+   under load), swap in this community mirror — same query params work:
      https://github-readme-streak-stats-eight.vercel.app?user=Apurvbajpai2531&theme=tokyonight&hide_border=true
 
-2. GITHUB-README-STATS (the top card, contributions/stars/etc.)
-   The public `github-readme-stats.vercel.app` instance is extremely
-   popular and gets rate-limited by GitHub's API fairly often, especially
-   during peak hours (US daytime). Symptoms: broken image icon, or a card
-   that says "Something went wrong".
-   Fixes, in order of reliability:
-     a. Just wait / refresh — most outages clear in a few hours.
-     b. Deploy your OWN free copy on Vercel (5 min, permanent fix):
-          1. Fork https://github.com/anuraghazra/github-readme-stats
-          2. Go to vercel.com -> New Project -> import your fork
-          3. Add env var: PAT_1 = a GitHub Personal Access Token
-             (Settings -> Developer settings -> Fine-grained tokens,
-             read-only "Contents" + "Metadata" scope is enough)
-          4. Deploy, then replace `github-readme-stats.vercel.app` in
-             this file with your new `<your-project>.vercel.app` domain.
-   Same self-hosting trick works for streak-stats
-   (https://github.com/DenverCoder1/github-readme-streak-stats — deploy
-   the `vercel` branch) if you want a link that never rate-limits.
+3. STILL BROKEN / WANT ZERO DOWNTIME?
+   Self-host your own free copy on Vercel — takes ~5 minutes and never
+   rate-limits or goes down because of someone else's traffic:
+     a. Fork https://github.com/marcalexiei/github-stats-extended
+        (or https://github.com/DenverCoder1/github-readme-streak-stats
+        for streaks — deploy its `vercel` branch)
+     b. vercel.com -> New Project -> import your fork
+     c. Add env var: a GitHub Personal Access Token (fine-grained,
+        read-only "Contents" + "Metadata" scope is enough)
+     d. Deploy, then swap the domain in this file for your own
+        `<your-project>.vercel.app`
 
 3. IMAGE NOT SHOWING AT ALL ON YOUR PROFILE
    Make sure this repo is named EXACTLY `Apurvbajpai2531` (your username)
