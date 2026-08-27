@@ -71,7 +71,7 @@ Backend Developer | DevOps Enthusiast ☁️ | 1+ Years of IT Industry Experienc
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Apurvbajpai2531&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://streak-stats.demolab.com/?user=Apurvbajpai2531&theme=tokyonight&hide_border=true&count_private=true" />
 </p>
 
 > ℹ️ **Note:** These cards are served by free, community-run APIs
